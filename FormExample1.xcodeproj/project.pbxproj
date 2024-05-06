@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B26574E72BE8E46B0003E87F /* FormExample1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26574E62BE8E46B0003E87F /* FormExample1App.swift */; };
-		B26574E92BE8E46B0003E87F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26574E82BE8E46B0003E87F /* ContentView.swift */; };
 		B26574EB2BE8E46C0003E87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26574EA2BE8E46C0003E87F /* Assets.xcassets */; };
 		B26574EE2BE8E46C0003E87F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26574ED2BE8E46C0003E87F /* Preview Assets.xcassets */; };
 		B26574F82BE8E46C0003E87F /* FormExample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26574F72BE8E46C0003E87F /* FormExample1Tests.swift */; };
 		B26575022BE8E46C0003E87F /* FormExample1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575012BE8E46C0003E87F /* FormExample1UITests.swift */; };
 		B26575042BE8E46C0003E87F /* FormExample1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575032BE8E46C0003E87F /* FormExample1UITestsLaunchTests.swift */; };
+		B265752E2BE8E4BD0003E87F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575102BE8E4BD0003E87F /* ContentView.swift */; };
+		B265752F2BE8E4BD0003E87F /* FormExample1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575112BE8E4BD0003E87F /* FormExample1App.swift */; };
+		B26575302BE8E4BD0003E87F /* ButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575132BE8E4BD0003E87F /* ButtonState.swift */; };
+		B26575312BE8E4BD0003E87F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575142BE8E4BD0003E87F /* Question.swift */; };
+		B26575322BE8E4BD0003E87F /* QuestionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575152BE8E4BD0003E87F /* QuestionError.swift */; };
+		B26575332BE8E4BD0003E87F /* QuestionRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575162BE8E4BD0003E87F /* QuestionRule.swift */; };
+		B26575342BE8E4BD0003E87F /* ButtonStateBusinessUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575182BE8E4BD0003E87F /* ButtonStateBusinessUnit.swift */; };
+		B26575352BE8E4BD0003E87F /* ErrorToDisplayBusinessUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575192BE8E4BD0003E87F /* ErrorToDisplayBusinessUnit.swift */; };
+		B26575362BE8E4BD0003E87F /* FormErrorBusinessUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265751A2BE8E4BD0003E87F /* FormErrorBusinessUnit.swift */; };
+		B26575372BE8E4BD0003E87F /* RequestValidationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265751C2BE8E4BD0003E87F /* RequestValidationEvent.swift */; };
+		B26575382BE8E4BD0003E87F /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265751E2BE8E4BD0003E87F /* Definitions.swift */; };
+		B26575392BE8E4BD0003E87F /* ConnectableSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575202BE8E4BD0003E87F /* ConnectableSources.swift */; };
+		B265753A2BE8E4BD0003E87F /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575212BE8E4BD0003E87F /* Connector.swift */; };
+		B265753B2BE8E4BD0003E87F /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575222BE8E4BD0003E87F /* Solver.swift */; };
+		B265753C2BE8E4BD0003E87F /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575252BE8E4BD0003E87F /* String+Regex.swift */; };
+		B265753D2BE8E4BD0003E87F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575272BE8E4BD0003E87F /* QuestionView.swift */; };
+		B265753E2BE8E4BD0003E87F /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26575282BE8E4BD0003E87F /* QuestionViewModel.swift */; };
+		B265753F2BE8E4BD0003E87F /* ValidateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265752A2BE8E4BD0003E87F /* ValidateButton.swift */; };
+		B26575402BE8E4BD0003E87F /* ValidateButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B265752B2BE8E4BD0003E87F /* ValidateButtonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +52,6 @@
 
 /* Begin PBXFileReference section */
 		B26574E32BE8E46B0003E87F /* FormExample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormExample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B26574E62BE8E46B0003E87F /* FormExample1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample1App.swift; sourceTree = "<group>"; };
-		B26574E82BE8E46B0003E87F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B26574EA2BE8E46C0003E87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B26574ED2BE8E46C0003E87F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B26574F32BE8E46C0003E87F /* FormExample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormExample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,25 @@
 		B26574FD2BE8E46C0003E87F /* FormExample1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormExample1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26575012BE8E46C0003E87F /* FormExample1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample1UITests.swift; sourceTree = "<group>"; };
 		B26575032BE8E46C0003E87F /* FormExample1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B26575102BE8E4BD0003E87F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B26575112BE8E4BD0003E87F /* FormExample1App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormExample1App.swift; sourceTree = "<group>"; };
+		B26575132BE8E4BD0003E87F /* ButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
+		B26575142BE8E4BD0003E87F /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B26575152BE8E4BD0003E87F /* QuestionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionError.swift; sourceTree = "<group>"; };
+		B26575162BE8E4BD0003E87F /* QuestionRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionRule.swift; sourceTree = "<group>"; };
+		B26575182BE8E4BD0003E87F /* ButtonStateBusinessUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStateBusinessUnit.swift; sourceTree = "<group>"; };
+		B26575192BE8E4BD0003E87F /* ErrorToDisplayBusinessUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorToDisplayBusinessUnit.swift; sourceTree = "<group>"; };
+		B265751A2BE8E4BD0003E87F /* FormErrorBusinessUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormErrorBusinessUnit.swift; sourceTree = "<group>"; };
+		B265751C2BE8E4BD0003E87F /* RequestValidationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestValidationEvent.swift; sourceTree = "<group>"; };
+		B265751E2BE8E4BD0003E87F /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		B26575202BE8E4BD0003E87F /* ConnectableSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectableSources.swift; sourceTree = "<group>"; };
+		B26575212BE8E4BD0003E87F /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		B26575222BE8E4BD0003E87F /* Solver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		B26575252BE8E4BD0003E87F /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		B26575272BE8E4BD0003E87F /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		B26575282BE8E4BD0003E87F /* QuestionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		B265752A2BE8E4BD0003E87F /* ValidateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateButton.swift; sourceTree = "<group>"; };
+		B265752B2BE8E4BD0003E87F /* ValidateButtonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateButtonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +128,11 @@
 		B26574E52BE8E46B0003E87F /* FormExample1 */ = {
 			isa = PBXGroup;
 			children = (
-				B26574E62BE8E46B0003E87F /* FormExample1App.swift */,
-				B26574E82BE8E46B0003E87F /* ContentView.swift */,
+				B26575122BE8E4BD0003E87F /* EntryPoint */,
+				B26575172BE8E4BD0003E87F /* Model */,
+				B26575242BE8E4BD0003E87F /* Services */,
+				B265752D2BE8E4BD0003E87F /* View */,
+				B26575262BE8E4BD0003E87F /* Extension */,
 				B26574EA2BE8E46C0003E87F /* Assets.xcassets */,
 				B26574EC2BE8E46C0003E87F /* Preview Content */,
 			);
@@ -125,6 +162,108 @@
 				B26575032BE8E46C0003E87F /* FormExample1UITestsLaunchTests.swift */,
 			);
 			path = FormExample1UITests;
+			sourceTree = "<group>";
+		};
+		B26575122BE8E4BD0003E87F /* EntryPoint */ = {
+			isa = PBXGroup;
+			children = (
+				B26575112BE8E4BD0003E87F /* FormExample1App.swift */,
+				B26575102BE8E4BD0003E87F /* ContentView.swift */,
+			);
+			path = EntryPoint;
+			sourceTree = "<group>";
+		};
+		B26575172BE8E4BD0003E87F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B26575132BE8E4BD0003E87F /* ButtonState.swift */,
+				B26575142BE8E4BD0003E87F /* Question.swift */,
+				B26575152BE8E4BD0003E87F /* QuestionError.swift */,
+				B26575162BE8E4BD0003E87F /* QuestionRule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B265751B2BE8E4BD0003E87F /* BusinessUnit */ = {
+			isa = PBXGroup;
+			children = (
+				B26575182BE8E4BD0003E87F /* ButtonStateBusinessUnit.swift */,
+				B26575192BE8E4BD0003E87F /* ErrorToDisplayBusinessUnit.swift */,
+				B265751A2BE8E4BD0003E87F /* FormErrorBusinessUnit.swift */,
+			);
+			path = BusinessUnit;
+			sourceTree = "<group>";
+		};
+		B265751D2BE8E4BD0003E87F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B265751C2BE8E4BD0003E87F /* RequestValidationEvent.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		B265751F2BE8E4BD0003E87F /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B265751D2BE8E4BD0003E87F /* Events */,
+				B265751E2BE8E4BD0003E87F /* Definitions.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B26575232BE8E4BD0003E87F /* DependencySolver */ = {
+			isa = PBXGroup;
+			children = (
+				B26575202BE8E4BD0003E87F /* ConnectableSources.swift */,
+				B26575212BE8E4BD0003E87F /* Connector.swift */,
+				B26575222BE8E4BD0003E87F /* Solver.swift */,
+			);
+			path = DependencySolver;
+			sourceTree = "<group>";
+		};
+		B26575242BE8E4BD0003E87F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B265751F2BE8E4BD0003E87F /* Combine */,
+				B26575232BE8E4BD0003E87F /* DependencySolver */,
+				B265751B2BE8E4BD0003E87F /* BusinessUnit */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B26575262BE8E4BD0003E87F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B26575252BE8E4BD0003E87F /* String+Regex.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B26575292BE8E4BD0003E87F /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				B26575272BE8E4BD0003E87F /* QuestionView.swift */,
+				B26575282BE8E4BD0003E87F /* QuestionViewModel.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		B265752C2BE8E4BD0003E87F /* ValidationButton */ = {
+			isa = PBXGroup;
+			children = (
+				B265752A2BE8E4BD0003E87F /* ValidateButton.swift */,
+				B265752B2BE8E4BD0003E87F /* ValidateButtonViewModel.swift */,
+			);
+			path = ValidationButton;
+			sourceTree = "<group>";
+		};
+		B265752D2BE8E4BD0003E87F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B26575292BE8E4BD0003E87F /* Question */,
+				B265752C2BE8E4BD0003E87F /* ValidationButton */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +396,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26574E92BE8E46B0003E87F /* ContentView.swift in Sources */,
-				B26574E72BE8E46B0003E87F /* FormExample1App.swift in Sources */,
+				B26575382BE8E4BD0003E87F /* Definitions.swift in Sources */,
+				B265753C2BE8E4BD0003E87F /* String+Regex.swift in Sources */,
+				B26575352BE8E4BD0003E87F /* ErrorToDisplayBusinessUnit.swift in Sources */,
+				B265753B2BE8E4BD0003E87F /* Solver.swift in Sources */,
+				B265753F2BE8E4BD0003E87F /* ValidateButton.swift in Sources */,
+				B26575402BE8E4BD0003E87F /* ValidateButtonViewModel.swift in Sources */,
+				B265753A2BE8E4BD0003E87F /* Connector.swift in Sources */,
+				B26575302BE8E4BD0003E87F /* ButtonState.swift in Sources */,
+				B26575322BE8E4BD0003E87F /* QuestionError.swift in Sources */,
+				B26575392BE8E4BD0003E87F /* ConnectableSources.swift in Sources */,
+				B265753E2BE8E4BD0003E87F /* QuestionViewModel.swift in Sources */,
+				B26575372BE8E4BD0003E87F /* RequestValidationEvent.swift in Sources */,
+				B26575312BE8E4BD0003E87F /* Question.swift in Sources */,
+				B26575342BE8E4BD0003E87F /* ButtonStateBusinessUnit.swift in Sources */,
+				B26575332BE8E4BD0003E87F /* QuestionRule.swift in Sources */,
+				B265752F2BE8E4BD0003E87F /* FormExample1App.swift in Sources */,
+				B26575362BE8E4BD0003E87F /* FormErrorBusinessUnit.swift in Sources */,
+				B265753D2BE8E4BD0003E87F /* QuestionView.swift in Sources */,
+				B265752E2BE8E4BD0003E87F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
