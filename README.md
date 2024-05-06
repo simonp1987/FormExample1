@@ -1,1 +1,1 @@
-An example for a full reactive programing architecture with Combine
+An example for a full reactive programming architecture with Combine
