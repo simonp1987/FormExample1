@@ -16,7 +16,7 @@ struct FormErrorBusinessUnit {
 
     func transform(answerBus: AnswerBus) -> QuestionErrorBus {
         return answerBus
-            .compactMap { return self.question.rules.error(for: $0) }
+            .map { return self.question.rules.error(for: $0) }
             .share()
             .eraseToAnyPublisher()
     }
