@@ -12,7 +12,7 @@ struct QuestionView: View {
     private let viewModel: QuestionViewModel
 
     // MARK: - Private State
-    @State private var answer: String = ""
+    @State private var answer: Answer = ""
     @State private var error: QuestionError = .noError
 
     // MARK: - Init
