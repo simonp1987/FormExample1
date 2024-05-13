@@ -11,7 +11,8 @@ import SwiftUI
 let question = Question(
     questionLabel: "first question",
     rules: [
-        .isCompulsory(errorMessage: "the question is compulsory")
+        .isCompulsory(errorMessage: "the question is compulsory"),
+        .regex(regex: "^[0-9]*$", errorMessage: "the answer must be a number")
     ]
 )
 
